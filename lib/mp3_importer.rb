@@ -10,8 +10,8 @@ class MP3Importer
 
   def files
     files = Dir.entries("#{path}").select {|f| !File.directory? f}
-    files.each do |item|
-      @@files << item
+    files.each do |song|
+      @@files << song
     end
   end
 
