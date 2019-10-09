@@ -31,8 +31,8 @@ class Artist
     end
 
   def print_songs
-    self.songs.each do |item|
-      puts item.name
+    self.songs.each do |song|
+      puts song.name
     end
   end
 end
